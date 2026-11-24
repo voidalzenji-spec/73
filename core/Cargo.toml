@@ -12,4 +12,4 @@ crate-type = ["cdylib", "staticlib", "lib"]
 uniffi = "0.29"
 thiserror = "1"
 ropey = "1.6"          # بديل مبدئي؛ يُستبدل بـ zed-sum-tree عند الحاجة
-portable-pty = "0.8"
+portable-pty = "0.9"
