@@ -1,0 +1,3 @@
+# محاذاة صفحات 16KB (متطلب Google Play وأجهزة أندرويد الحديثة)
+[target.aarch64-linux-android]
+rustflags = ["-C", "link-args=-Wl,-z,max-page-size=16384"]
